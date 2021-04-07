@@ -2,7 +2,7 @@ What is Angular?
 - Angular is a open-source frontend development platform developed by google.
 
 Why Angular?
-- It is used to build web and mobile interactive dynemic web applications.
+- It is used to build web and mobile interactive dynamic web applications.
 
 Frontend: Browser(Chrome,Firefox, IE, Edge etc.)
 	- Html, CSS,Bootstrap, Javascript, JQuery,Angular JS, Angular etc.
@@ -10,8 +10,8 @@ Frontend: Browser(Chrome,Firefox, IE, Edge etc.)
 Static: A page which can't changes it's content based on the request.
 - To build static page we use static technologies like HTML, CSS, SASS,LESS, Bootstrap etc.
 
-Dynemic: A page which can changes it's contetn based on user's request.
-- To build dynemic pages Javascript, jQuery, Angular JS, Angular, React JS, Vue JS etc.
+Dynamic: A page which can changes it's contetn based on user's request.
+- To build dynamic pages Javascript, jQuery, Angular JS, Angular, React JS, Vue JS etc.
 
 
 Backend: Server(DB Server, Web Server)
@@ -245,7 +245,7 @@ package-lock.json:
 The package-lock.json is automatically generated for those operations where npm modifies either the node_modules tree or package.json. In other words, the package.lock.json is generated after an npm install. We will discuss this file in detail in our upcoming articles.
 
 package.json:
-This file is mandatory for every npm project. It contains basic information regarding the project (name, description, license, etc), commands which can be used, dependencies – these are packages required by the application to work correctly, and dependencies – again the list of packages which are required for application however only during the development phase i.e. we need Angular CLI only during development to build a final package however for production we don’t use it anymore. We will discuss this file in detail in our upcoming articles.
+This file is mandatory for every npm project. It contains basic information regarding the project (name, description, license, etc), commands which can be used, dependencies Â– these are packages required by the application to work correctly, and dependencies Â– again the list of packages which are required for application however only during the development phase i.e. we need Angular CLI only during development to build a final package however for production we donÂ’t use it anymore. We will discuss this file in detail in our upcoming articles.
 
 README.md file:
 README is the file that contains the description or description of the project which we would like to give to the end-users so that they can start using our application in a great manner. This file contains the basic documentation for your project, also contains some pre-filled CLI command information.
@@ -273,11 +273,11 @@ Javascript:
 What is Javascript?
 - Javascript is the one of most importent Scripting language whcih is having light weight, interprted, open source and also cross platform.
 - Javascript is an object based programmning langauge.
-- It is used to build dynemic web application by using less resources.
+- It is used to build dynamic web application by using less resources.
 
 Why Javascript is required?
 - Used for client validations
-- Used to insert dynemic text/content into the HTML(Manipulating DOM)
+- Used to insert dynamic text/content into the HTML(Manipulating DOM)
 - Events
 - Ajax(Can be used to communicating with server asynchonusly).
 - Animations
@@ -520,7 +520,7 @@ Inheritence:
 Polymorphism:
 - Poly means many and morphism means behaviours.
 - In typescript static polymorphism can't be possible(Method Overloading).
-- Dynemic polymorphism can be possible by using (Method Over riding).
+- Dynamic polymorphism can be possible by using (Method Over riding).
 ----------------------------------------------------------------------------------------
 Abstract class:
 - A class which contains one or more abstarct methods is called abstarct class.
@@ -596,9 +596,9 @@ Packages in Angular:
 
 @angular/compiler:
 - This package is used to convert template code into javascript code, In angular compiler is background thread which is not required to invoke explicitly.
-- This package was wrapped with a package "@angular/platform-browser-dynemic" and "@angular/platform-browser".
+- This package was wrapped with a package "@angular/platform-browser-dynamic" and "@angular/platform-browser".
 
-@angular/platform-browser-dynemic:
+@angular/platform-browser-dynamic:
 - It will takecare of compilation process of an angualr and also verify the browser compatability and throw exception in console.
 
 @angular/common:
@@ -618,7 +618,7 @@ Packages in Angular:
 - It comes with a module i.e. "HttpClientModule".
 
 @angular/meterial:
-- Dynemic UI creation.
+- Dynamic UI creation.
 
 Note: The above all packages are available as the part of core library reference, but sometimes we may have to install third party libraries like
 	- Typescript
@@ -720,17 +720,17 @@ codewithsrikanth@gmail.com
 
 Builtin - Directives in Angular:
 - A directive in Angular is used to chnage the behaviour of the DOM(Document Object Model) elements.
-- It is used to add the additional dynemic behaviour to the HTML elements.
+- It is used to add the additional dynamic behaviour to the HTML elements.
 - There are 3 types of directives
 	- Structural: It just used to add the structure for the DOM, It just used to add the elements into the DOM at runtime based on conditions. Examples: *ngFor, *ngIf, *ngSwitch, *ngSwitchCase etc.
-	- Attribute: These directives will add/modify the behaviour of the elements like adding colours dynemically or removing colors and all the CSS properties if we want to add then will use this. Example [NgStyle] and [NgClass]
+	- Attribute: These directives will add/modify the behaviour of the elements like adding colours dynamically or removing colors and all the CSS properties if we want to add then will use this. Example [NgStyle] and [NgClass]
 	- Component: Custom Directives
 
-Style: It is used to set the CSS property values dynemically at runtime..
+Style: It is used to set the CSS property values dynamically at runtime..
 - Once we cahnge the value then automatcally it changes the behaviour of html element as well.
 - <tag [style.cssProperty]="property"></tag>
 
-ngClass: It is used to apply the CSS classes dynemically.
+ngClass: It is used to apply the CSS classes dynamically.
 - If we want to apply more than one CSS style for an HTML element we use this approch.
 - <tag [ngClass]="property"></tag>
 ----------------------------------------------------------------------------------------
@@ -749,7 +749,7 @@ Bootstrap Integration:
 
 
 *ngIf:
-- It is a structural directive which can be used to manipluate the DOM elements means dynemically we can add/remove the elements based on the conditions.
+- It is a structural directive which can be used to manipluate the DOM elements means dynamically we can add/remove the elements based on the conditions.
 - <tag *ngIf="property"></tag>
 - Once if the property value is true then it will display that element, else it won't display.
 
@@ -876,7 +876,7 @@ Custom Directives:
 	- Custom Directives
 - The directives that are avaible is not meet our requirement will create custom directives and wil use them in the template
 - While working with directives we need to have two seperate decorator which can be used to bind the data and events to the elements
-* import Input(): It is used to pass the data dynemically to the custom directive
+* import Input(): It is used to pass the data dynamically to the custom directive
 * import HostListner() : It is used to apply the events.
 * import ElementRef: It is used to manipulate the DOM.
 ----------------------------------------------------------------------------------------
